@@ -15,7 +15,7 @@ public class LoginActivity extends AppCompatActivity {
     //обьявляем переменные
     private EditText username;
     private EditText password;
-    private Button login;
+//    private Button login;
 
 
     @Override
@@ -26,9 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         //связываем
         username = findViewById(R.id.login);
         password = findViewById(R.id.password);
-        login = findViewById(R.id.buttonLogin);
-
-
+//        login = findViewById(R.id.buttonLogin);
     }
 
     //описываем кнопку Войти
@@ -39,13 +37,12 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Вход выполнен", Toast.LENGTH_SHORT).show();
 
             //выполняем переход на другой экран
-            Intent intent = new Intent(LoginActivity.this, ChoiceActivity.class);
+            Intent intent = new Intent(LoginActivity.this, PersonalAreaActivity.class);
             startActivity(intent);
 
             //если данные введены неверное - выводим длинный тост с уведовмлением
         } else {
             Toast.makeText(getApplicationContext(), "Неверные данные!", Toast.LENGTH_SHORT).show();
-
         }
     }
 }
