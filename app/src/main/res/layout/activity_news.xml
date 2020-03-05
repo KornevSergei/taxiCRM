@@ -35,12 +35,14 @@
             android:text=" - гибко регулировать лимиты и ограничения на заправки для каждого пользователя (глобальные и суточные лимиты на заправку)"
             android:textColor="@color/colorBlack"
             android:textSize="14sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" - получать кэшбек с заправок водителей, если подключить к сервису корпоративную карту с кэшбеком (дополнительный заработок)"
             android:textColor="@color/colorBlack"
             android:textSize="14sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,12 +55,14 @@
             android:layout_height="wrap_content"
             android:text="12 ноя 2019"
             android:textSize="20sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Мы подготовили кое что новенькое, а именно Модуль заправок, который поможет Вам заработать еще больше, и повысить лояльность водителей."
             android:textColor="@color/colorBlack"
             android:textSize="14sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -68,7 +72,39 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="500dp"
+            android:layout_height="420dp"
             app:srcCompat="@drawable/news" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09 окт 2019"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бесплатный тестовый период taxiCRM 10 дней, в течение которых Вы сможете попробовать весь функционал, провести тестовые выплаты и прочувствовать все преимущества автоматизации!"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="В рамках бесплатного пробного периода мы проводим для Вас подробное обучение и оказываем поддержку на на всём протяжении 10 тестовых дней."
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оставьте заявку на бесплатный тестовый период на сайте http://taxicrm.ru/"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="420dp"
+            app:srcCompat="@drawable/splash" />
     </LinearLayout>
 </ScrollView>

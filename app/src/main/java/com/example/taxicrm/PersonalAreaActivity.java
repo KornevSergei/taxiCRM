@@ -19,4 +19,9 @@ public class PersonalAreaActivity extends AppCompatActivity {
         Intent intent = new Intent(PersonalAreaActivity.this, NewsActivity.class);
         startActivity(intent);
     }
+
+    public void history(View view) {
+        Intent intent = new Intent(PersonalAreaActivity.this, HistoryActivity.class);
+        startActivity(intent);
+    }
 }
