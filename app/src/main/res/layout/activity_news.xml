@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13 ноя 2019"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Последние дни мы получаем множество вопросов о нашем новом модуле заправок и мы хотим рассказать вам о всех преимуществах этого модуля! Модуль интеграции с АЗС.GO позволяет автопаркам:"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - получить бесплатный и полностью автоматический способ выплат для своих водителей"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - гибко регулировать лимиты и ограничения на заправки для каждого пользователя (глобальные и суточные лимиты на заправку)"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - получать кэшбек с заправок водителей, если подключить к сервису корпоративную карту с кэшбеком (дополнительный заработок)"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - повысить лояльность водителей, предоставив не только дополнительный, уникальный сервис, но и автоматически начисляя водителям кэшбек с их заправок через приложение АЗС.GO."
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 ноя 2019"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мы подготовили кое что новенькое, а именно Модуль заправок, который поможет Вам заработать еще больше, и повысить лояльность водителей."
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Данный модуль позволяет вашим пользователям по всей стране заправляться со своего баланса в любом из агрегаторов в сети АЗС ''Газпром нефть'' через приложение АЗС.GO. Фактически это еще один способ выплат, который максимально прост для владельцев парков, удобен для водителей и выгоден всем."
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            app:srcCompat="@drawable/news" />
+    </LinearLayout>
+</ScrollView>

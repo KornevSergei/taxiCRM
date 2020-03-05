@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textOverall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -21,18 +21,18 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/overallBalance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@id/textView1"
+            android:layout_toRightOf="@id/textOverall"
             android:text="0"
             android:textColor="@color/colorBlack"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textInternal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
@@ -42,11 +42,11 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/internalBalance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:layout_toRightOf="@id/textView2"
+            android:layout_toRightOf="@id/textInternal"
             android:text="0"
             android:textColor="@color/colorBlack"
             android:textSize="20sp"
@@ -54,7 +54,7 @@
 
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textBonus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="90dp"
@@ -64,11 +64,11 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView1111"
+            android:id="@+id/bonusBalance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="90dp"
-            android:layout_toRightOf="@id/textView3"
+            android:layout_toRightOf="@id/textBonus"
             android:text="0"
             android:textColor="@color/colorBlack"
             android:textSize="20sp"
@@ -77,15 +77,16 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="200dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="150dp"
             android:orientation="horizontal">
 
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buttonNews"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:onClick="news"
                 android:layout_marginTop="100dp"
                 android:background="@color/colorOrangeFour"
                 android:text="Новости"
@@ -93,7 +94,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonHistory"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_marginTop="40dp"
@@ -103,7 +104,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/buttonPayouts"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:layout_marginTop="90dp"
@@ -113,7 +114,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/buttonFillUp"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:layout_marginTop="40dp"
