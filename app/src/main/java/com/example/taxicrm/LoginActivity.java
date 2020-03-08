@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Вход выполнен", Toast.LENGTH_SHORT).show();
 
             //выполняем переход на другой экран
-            Intent intent = new Intent(LoginActivity.this, PersonalAreaActivity.class);
+            Intent intent = new Intent(LoginActivity.this, SplashScreenTwoActivity.class);
             startActivity(intent);
 
             //если данные введены неверное - выводим длинный тост с уведовмлением
