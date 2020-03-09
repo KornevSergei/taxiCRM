@@ -15,13 +15,14 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/ic_money_off_black_24dp" />
+            app:srcCompat="@drawable/ic_money_off_red_24dp"
+            tools:ignore="VectorDrawableCompat" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="25dp"
             android:textSize="25sp"
             android:text="          06.03.2020 сумма 4000 руб" />
 
@@ -29,14 +30,15 @@
             android:id="@+id/imageView2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginTop="60dp"
-            app:srcCompat="@drawable/ic_attach_money_black_24dp" />
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/ic_attach_money_green_24dp"
+            tools:ignore="VectorDrawableCompat" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="110dp"
             android:textSize="25sp"
             android:text="          06.03.2020 сумма 2000 руб" />
 
@@ -44,15 +46,16 @@
             android:id="@+id/imageView3"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginTop="100dp"
-            app:srcCompat="@drawable/ic_attach_money_black_24dp" />
+            android:layout_marginTop="180dp"
+            app:srcCompat="@drawable/ic_attach_money_green_24dp"
+            tools:ignore="VectorDrawableCompat" />
 
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="108dp"
+            android:layout_marginTop="185dp"
             android:textSize="25sp"
             android:text="          06.03.2020 сумма 400 руб" />
 

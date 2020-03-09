@@ -17,7 +17,7 @@ public class SplashScreenTwoActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    sleep(1000);//время показа заставки
+                    sleep(200);//время показа заставки
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally { //запускаем активити после заставки

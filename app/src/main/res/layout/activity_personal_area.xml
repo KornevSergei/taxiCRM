@@ -82,4 +82,46 @@
             android:textStyle="bold" />
 
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/news"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:onClick="news"
+            app:srcCompat="@drawable/buttona" />
+
+        <ImageView
+            android:id="@+id/history"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:onClick="history"
+            app:srcCompat="@drawable/buttonb" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/buttonc" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/buttond" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
